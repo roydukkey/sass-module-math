@@ -1,0 +1,29 @@
+// Copyright (c) roydukkey. All rights reserved.
+// Licensed under the MIT. See LICENSE file in the project root for full license information.
+////
+/// @author roydukkey
+/// @group api
+////
+
+@use 'sass:math'
+@use 'sass:meta'
+@use 'sass-exception/src/exception/parameter-type'
+
+
+///
+/// Returns Euler's number to the specified power.
+///
+/// @param {Number} $number - The power to which Euler's number will be raise.
+/// @return {Number}
+///
+/// @throw `#{$number}` is not a number.
+///
+/// @access public
+/// @require parameter-type.parameter-type
+///
+@function exp($number)
+
+	@if meta.type-of($number) != 'number'
+		@error parameter-type.parameter-type('exp', 'number', $number, 'number')
+
+	@return math.pow(math.$e, $number)
