@@ -9,6 +9,8 @@ This Sass module provides more advanced math functions.
 
 ### Requires
 
+* Dart Sass: `>=1.33.0`
+
 Install the package:
 
 ```bash
