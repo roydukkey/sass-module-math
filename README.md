@@ -1,3 +1,8 @@
+**Renamed!**
+This package has been renamed to [`@sass-fairy/math`](https://github.com/roydukkey/sass-fairy/tree/master/packages/math#readme) and organised in a mono-repo for better maintainablity, an improved user experience, and [full documentation](https://sass-fairy.com/api/math). Explore more about the change at [sass-fairy.com](https://sass-fairy.com).
+
+---
+
 # sass-module-math
 
 [![Release Version](https://img.shields.io/npm/v/sass-module-math.svg)](https://www.npmjs.com/package/sass-module-math)
